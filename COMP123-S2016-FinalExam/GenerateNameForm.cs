@@ -12,6 +12,10 @@ namespace COMP123_S2016_FinalExam
 {
     public partial class GenerateNameForm : Form
     {
+
+        private Random _random; 
+
+
         public GenerateNameForm()
         {
             InitializeComponent();
@@ -19,7 +23,18 @@ namespace COMP123_S2016_FinalExam
 
         public void GenerateNames()
         {
-     
+            FirstNameTextBox.Text = this.Roll().ToString();
+            LastNameTextBox.Text = this.Roll().ToString();
+        }
+
+        private void GenerateNamesButton_Click(object sender, EventArgs e)
+        {
+            GenerateNames();
+        }
+
+        private void NextButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
         }
     }
 }
