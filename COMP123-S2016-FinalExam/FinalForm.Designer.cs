@@ -83,12 +83,12 @@
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(149, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(89, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(92, 22);
             this.exitToolStripMenuItem.Text = "E&xit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -156,6 +156,7 @@
             this.AbilityGroupBox.TabIndex = 7;
             this.AbilityGroupBox.TabStop = false;
             this.AbilityGroupBox.Text = "Abilities";
+            this.AbilityGroupBox.Enter += new System.EventHandler(this.AbilityGroupBox_Enter);
             // 
             // CharismaTextBox
             // 
@@ -266,6 +267,7 @@
             this.StrengthTextBox.Size = new System.Drawing.Size(127, 26);
             this.StrengthTextBox.TabIndex = 1;
             this.StrengthTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.StrengthTextBox.TextChanged += new System.EventHandler(this.StrengthTextBox_TextChanged);
             // 
             // StrengthLabel
             // 
@@ -353,6 +355,7 @@
             this.Name = "FinalForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Final Form";
+            this.Load += new System.EventHandler(this.FinalForm_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.AbilityGroupBox.ResumeLayout(false);

@@ -7,7 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+/*
+ * file name: SplashForm.cs
+ */
 namespace COMP123_S2016_FinalExam
 {
     public partial class SplashForm : Form

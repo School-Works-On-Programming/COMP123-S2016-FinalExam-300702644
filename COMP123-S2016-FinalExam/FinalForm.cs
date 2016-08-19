@@ -38,5 +38,20 @@ namespace COMP123_S2016_FinalExam
         {
             Application.Exit();
         }
+
+        private void FinalForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AbilityGroupBox_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void StrengthTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
