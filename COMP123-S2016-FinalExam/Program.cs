@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+ * Student Name: Christopher Ritchil 
+ * Student ID: 300702644
+ * Date Created: August 19th 2016
+ * Date Updated: August 19th 2016
+ * Description: This application demonstrate the requirement for the Programming II final test
+ * file name: Program.cs
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
